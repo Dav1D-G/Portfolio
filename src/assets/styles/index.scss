@@ -1,0 +1,30 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./Hello/index.scss";
+@import "./AboutMe/index.scss";
+@import "./Experience/index.scss";
+@import "./Projects/index.scss";
+@import "./Skills/index.scss";
+@import "./Navigation/index.scss";
+@import "./fonts/index.scss";
+
+.project
+{
+    @apply mt-[800px] bg-green-300;
+}
+
+.body-section
+{
+    @apply mt-[85px] md:mx-16;
+    @apply bg-red-500;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
